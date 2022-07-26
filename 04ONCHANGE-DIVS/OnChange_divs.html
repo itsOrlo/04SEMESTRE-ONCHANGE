@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Onchange Divs</title>
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css.map">
+
+</head>
+<body>
+    <h1>PRUEBA FORMULARIO</h1>
+
+    <div>
+        <form>
+
+            <br></br>
+            <input type="text" id="nambre" onchange="nombre()" placeholder="Ingrese su nombre  :P">
+            <br></br>
+
+        </form>
+
+    </div>
+
+    <div>
+       <form>
+        <p>1° ¿Qué dispositivos tecnológicos usa en su casa?</p>
+        <input type="checkbox" id="cb1" value="smartphone" onclick="seleccionadas()">Smartphone <br>
+        <input type="checkbox" id="cb2" value="portatil" onclick="seleccionadas()">Portatil<br>
+        <input type="checkbox" id="cb3" value="tablet" onclick="seleccionadas()">Tablet<br>
+
+
+       </form> 
+    </div>
+    <br>
+    <div>
+        <form action="">
+            <p>2° ¿Qué animal tiene?</p>
+            <input type="radio" name="rdb" id="cb4" value="perro" onclick="animal()">Perro<br>
+            <input type="radio" name="rdb" id="cb5" value="gato" onclick="animal()">Gato<br>
+            <input type="radio" name="rdb" id="cb6" value="caiman" onclick="animal()">Caimán<br>
+    
+
+        </form>
+    </div>
+
+    <div>
+        <form action="">
+            <p>3° ¿Cuál es su lenguaje de programación favorita?</p>
+            <select name="lenguajes_programacion" id="opt" onchange="lenguaje()">
+                <option id= "s1" value="Java">Java</option>
+                <option id= "s2" value="Python">Python</option>
+                <option id= "s3" value="JavaScript">JavaScript</option>
+              </select>
+    
+            
+
+        </form>
+    </div>
+
+
+    <br>
+
+    <!--Apartado de respuestas-->
+    <div id="resp" style="border-style: dashed;">
+        
+    </div>
+
+</body>
+<footer>
+
+    <!--JS-->
+    <script src="assets/js/funcciones.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jQueryv3.6.0.js"></script>
+
+</footer>
+</html>
