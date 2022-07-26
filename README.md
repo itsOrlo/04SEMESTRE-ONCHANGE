@@ -1,7 +1,7 @@
 # 04SEMESTRE-ONCHANGE
-Proyecto Parcial III
+>Proyecto Parcial III
 
-Materia: POO
-
-Semestre: 4° Ciclo
+Materia: POO <br>
+Semestre: 4° Ciclo <br>
+Lenguajes: html - JavaScript
 
